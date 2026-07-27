@@ -178,7 +178,7 @@ function Hero() {
         {/* Scroll Down Button */}
 
         <a
-          href="#about"
+          href="#menu"
           className="absolute bottom-8 flex flex-col items-center cursor-pointer"
         >
 
