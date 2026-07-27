@@ -49,13 +49,14 @@ function Hero() {
 
         <motion.p
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
           className="max-w-3xl text-gray-300 text-lg md:text-xl mt-8 leading-9"
         >
           Discover unforgettable flavors crafted by world-class chefs in a
           luxurious atmosphere where every meal becomes a memorable experience.
         </motion.p>
+
 
 
 
@@ -94,7 +95,6 @@ function Hero() {
 
 
 
-
           {/* Reserve Now */}
 
           <a
@@ -123,6 +123,7 @@ function Hero() {
 
 
 
+
         {/* Statistics */}
 
         <motion.div
@@ -136,26 +137,31 @@ function Hero() {
             <h2 className="text-yellow-500 text-4xl font-bold">
               15+
             </h2>
+
             <p className="text-gray-300 mt-2">
               Years Experience
             </p>
           </div>
 
 
+
           <div>
             <h2 className="text-yellow-500 text-4xl font-bold">
               50K+
             </h2>
+
             <p className="text-gray-300 mt-2">
               Happy Customers
             </p>
           </div>
 
 
+
           <div>
             <h2 className="text-yellow-500 text-4xl font-bold">
               120+
             </h2>
+
             <p className="text-gray-300 mt-2">
               Premium Dishes
             </p>
@@ -168,13 +174,12 @@ function Hero() {
 
 
 
-        {/* Scroll Indicator */}
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.3 }}
-          className="absolute bottom-8 flex flex-col items-center"
+        {/* Scroll Down Button */}
+
+        <a
+          href="#about"
+          className="absolute bottom-8 flex flex-col items-center cursor-pointer"
         >
 
           <p className="text-gray-300 text-sm mb-2 tracking-wider">
@@ -189,10 +194,11 @@ function Hero() {
           </div>
 
 
-        </motion.div>
+        </a>
 
 
       </div>
+
 
     </section>
   );

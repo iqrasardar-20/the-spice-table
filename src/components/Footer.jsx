@@ -25,29 +25,47 @@ export default function Footer() {
             Spice Table
           </h2>
 
+
           <p className="text-gray-400 mt-5 leading-7">
             A luxury dining experience where passion, flavors, and
             unforgettable moments come together.
           </p>
 
 
+
           <div className="flex gap-4 mt-6">
 
-            <div className="w-10 h-10 bg-yellow-500 text-black rounded-full flex items-center justify-center hover:bg-white duration-300 cursor-pointer">
+
+            <a
+              href="#"
+              className="w-10 h-10 bg-yellow-500 text-black rounded-full flex items-center justify-center hover:bg-white duration-300"
+            >
               <FaFacebookF />
-            </div>
+            </a>
 
-            <div className="w-10 h-10 bg-yellow-500 text-black rounded-full flex items-center justify-center hover:bg-white duration-300 cursor-pointer">
+
+            <a
+              href="#"
+              className="w-10 h-10 bg-yellow-500 text-black rounded-full flex items-center justify-center hover:bg-white duration-300"
+            >
               <FaInstagram />
-            </div>
+            </a>
 
-            <div className="w-10 h-10 bg-yellow-500 text-black rounded-full flex items-center justify-center hover:bg-white duration-300 cursor-pointer">
+
+            <a
+              href="#"
+              className="w-10 h-10 bg-yellow-500 text-black rounded-full flex items-center justify-center hover:bg-white duration-300"
+            >
               <FaTwitter />
-            </div>
+            </a>
+
 
           </div>
 
+
         </div>
+
+
 
 
 
@@ -59,31 +77,58 @@ export default function Footer() {
             Quick Links
           </h3>
 
+
           <ul className="space-y-3 text-gray-400">
 
-            <li className="hover:text-yellow-500 cursor-pointer">
-              Home
+
+            <li>
+              <a href="#home" className="hover:text-yellow-500 duration-300">
+                Home
+              </a>
             </li>
 
-            <li className="hover:text-yellow-500 cursor-pointer">
-              About
+
+            <li>
+              <a href="#about" className="hover:text-yellow-500 duration-300">
+                About
+              </a>
             </li>
 
-            <li className="hover:text-yellow-500 cursor-pointer">
-              Menu
+
+            <li>
+              <a href="#menu" className="hover:text-yellow-500 duration-300">
+                Menu
+              </a>
             </li>
 
-            <li className="hover:text-yellow-500 cursor-pointer">
-              Gallery
+
+            <li>
+              <a href="#gallery" className="hover:text-yellow-500 duration-300">
+                Gallery
+              </a>
             </li>
 
-            <li className="hover:text-yellow-500 cursor-pointer">
-              Contact
+
+            <li>
+              <a href="#reservation" className="hover:text-yellow-500 duration-300">
+                Reservation
+              </a>
             </li>
+
+
+            <li>
+              <a href="#contact" className="hover:text-yellow-500 duration-300">
+                Contact
+              </a>
+            </li>
+
 
           </ul>
 
+
         </div>
+
+
 
 
 
@@ -95,11 +140,13 @@ export default function Footer() {
             Opening Hours
           </h3>
 
+
           <p className="text-gray-400 mb-3">
             Monday - Friday
             <br />
             12:00 PM - 11:00 PM
           </p>
+
 
           <p className="text-gray-400">
             Saturday - Sunday
@@ -107,7 +154,10 @@ export default function Footer() {
             11:00 AM - 12:00 AM
           </p>
 
+
         </div>
+
+
 
 
 
@@ -141,7 +191,10 @@ export default function Footer() {
         </div>
 
 
+
       </div>
+
+
 
 
 
@@ -152,6 +205,7 @@ export default function Footer() {
         <p className="text-gray-500">
           © 2026 The Spice Table. All Rights Reserved.
         </p>
+
 
       </div>
 
