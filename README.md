@@ -1,5 +1,17 @@
 # 🍽️ The Spice Table - Luxury Restaurant Website
+## 📸 Preview
 
+### Homepage
+![Hero Section](public/screenshots/hero.png)
+
+### Featured Dishes
+![Dishes Section](public/screenshots/dishes.png)
+
+### Gallery
+![Gallery Section](public/screenshots/gallery.png)
+
+### Reservation
+![Reservation Section](public/screenshots/reservation.png)
 A modern and elegant restaurant website built with React and Tailwind CSS.  
 The website provides a premium dining experience with smooth animations, responsive design, and interactive sections.
 
