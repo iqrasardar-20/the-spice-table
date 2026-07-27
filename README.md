@@ -2,16 +2,21 @@
 ## 📸 Preview
 
 ### Homepage
-![Hero Section](./public/screenshots/hero.png)
+![Hero Section](https://github.com/iqrasardar-20/the-spice-table/blob/main/public/screenshots/hero.PNG)
 
 ### Featured Dishes
-![Dishes Section](./public/screenshots/dishes.png)
+![Dishes Section](https://github.com/iqrasardar-20/the-spice-table/blob/main/public/screenshots/dishes.PNG)
 
 ### Gallery
-![Gallery Section](./public/screenshots/gallery.png)
+![Gallery Section](https://github.com/iqrasardar-20/the-spice-table/blob/main/public/screenshots/gallery.PNG)
 
 ### Reservation
-![Reservation Section](./public/screenshots/reservation.png)
+![Reservation Section](https://github.com/iqrasardar-20/the-spice-table/blob/main/public/screenshots/reservation.PNG)
+
+### Contact
+! [Contact Section](https://github.com/iqrasardar-20/the-spice-table/blob/main/public/screenshots/contact.PNG)
+
+
 
 
 A modern and elegant restaurant website built with React and Tailwind CSS.  
