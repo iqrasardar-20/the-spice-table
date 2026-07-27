@@ -14,7 +14,7 @@
 ![Reservation Section](https://github.com/iqrasardar-20/the-spice-table/blob/main/public/screenshots/reservation.PNG)
 
 ### Contact
-! [Contact Section](https://github.com/iqrasardar-20/the-spice-table/blob/main/public/screenshots/contact.PNG)
+![Contact Section](https://github.com/iqrasardar-20/the-spice-table/blob/main/public/screenshots/contact.PNG)
 
 
 
