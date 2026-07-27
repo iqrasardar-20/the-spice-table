@@ -6,7 +6,8 @@ import ChefSection from "./components/ChefSection";
 import Testimonials from "./components/Testimonials";
 import Gallery from "./components/Gallery";
 import Reservation from "./components/Reservation";
-
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Testimonials />
       <Gallery/>
       <Reservation/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }
