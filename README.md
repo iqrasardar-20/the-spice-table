@@ -2,16 +2,18 @@
 ## 📸 Preview
 
 ### Homepage
-![Hero Section](public/screenshots/hero.png)
+![Hero Section](./public/screenshots/hero.png)
 
 ### Featured Dishes
-![Dishes Section](public/screenshots/dishes.png)
+![Dishes Section](./public/screenshots/dishes.png)
 
 ### Gallery
-![Gallery Section](public/screenshots/gallery.png)
+![Gallery Section](./public/screenshots/gallery.png)
 
 ### Reservation
-![Reservation Section](public/screenshots/reservation.png)
+![Reservation Section](./public/screenshots/reservation.png)
+
+
 A modern and elegant restaurant website built with React and Tailwind CSS.  
 The website provides a premium dining experience with smooth animations, responsive design, and interactive sections.
 
@@ -48,3 +50,24 @@ https://the-spice-table.vercel.app
 ---
 
 ## 📂 Project Structure
+the-spice-table/
+│
+├── public/
+│ └── restaurant-logo.png
+│
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── FeaturedDishes.jsx
+│ │ ├── Gallery.jsx
+│ │ ├── Reservation.jsx
+│ │ ├── Contact.jsx
+│ │ └── Footer.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+└── package.json
