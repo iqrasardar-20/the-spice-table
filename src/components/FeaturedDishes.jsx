@@ -55,7 +55,10 @@ const dishes = [
 
 function FeaturedDishes() {
   return (
-    <section className="bg-[#111111] py-24 px-6">
+    <section
+  id="menu"
+  className="bg-[#111111] py-24 px-6 scroll-mt-24"
+>
 
       <div className="max-w-7xl mx-auto">
 
@@ -160,11 +163,26 @@ function FeaturedDishes() {
 
                 {/* Button */}
 
-                <button className="mt-7 w-full bg-yellow-500 hover:bg-yellow-400 text-black py-3 rounded-full font-semibold transition duration-300 hover:scale-105">
-
-                  Order Now
-
-                </button>
+                <a
+  href="#reservation"
+  className="
+  mt-7
+  block
+  text-center
+  w-full
+  bg-yellow-500
+  hover:bg-yellow-400
+  text-black
+  py-3
+  rounded-full
+  font-semibold
+  transition
+  duration-300
+  hover:scale-105
+  "
+>
+  Order Now
+</a>
 
               </div>
 

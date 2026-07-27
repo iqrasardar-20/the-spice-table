@@ -1,9 +1,9 @@
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 
 export default function Contact() {
+     
   return (
-    <section className="bg-[#111111] py-24 px-6">
-
+   <section id="contact" className="bg-[#111111] py-24 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
@@ -146,10 +146,10 @@ export default function Contact() {
 
 
             <button
-              className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold py-4 rounded-full transition duration-300"
-            >
-              Send Message
-            </button>
+  className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold py-4 rounded-full transition duration-300"
+>
+  Send Message
+</button>
 
 
           </form>
